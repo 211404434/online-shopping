@@ -1,13 +1,11 @@
 package net.pnp.PNPShoppingBackEnd.dao;
+import java.util.*;  
 
-import java.util.List;
-
-import net.kzn.shoppingbackend.dto.Cart;
-import net.kzn.shoppingbackend.dto.CartLine;
-import net.kzn.shoppingbackend.dto.OrderDetail;
+import net.pnp.PNPShoppingBackEnd.dto.Cart;
+import net.pnp.PNPShoppingBackEnd.dto.CartLine;
+import net.pnp.PNPShoppingBackEnd.dto.OrderDetail;
 
 public interface CartLineDAO {
-
 	public List<CartLine> list(int cartId);
 	public CartLine get(int id);	
 	public boolean add(CartLine cartLine);
@@ -21,10 +19,8 @@ public interface CartLineDAO {
 	boolean updateCart(Cart cart);
 	
 	// list of available cartLine
-	public List<CartLine> listAvailable(int cartId);
+	public List listAvailable(int cartId);
 	
 	// adding order details
 	boolean addOrderDetail(OrderDetail orderDetail);
-
-	
 }

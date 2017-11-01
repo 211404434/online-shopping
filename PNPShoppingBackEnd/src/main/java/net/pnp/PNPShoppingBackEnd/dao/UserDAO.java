@@ -1,11 +1,8 @@
 package net.pnp.PNPShoppingBackEnd.dao;
 
-import java.util.List;
-
-import net.kzn.shoppingbackend.dto.Address;
-import net.kzn.shoppingbackend.dto.Cart;
-import net.kzn.shoppingbackend.dto.User;
-
+import java.util.*; 
+import net.pnp.PNPShoppingBackEnd.dto.Address;
+import net.pnp.PNPShoppingBackEnd.dto.User;
 public interface UserDAO {
 
 	// user related operation

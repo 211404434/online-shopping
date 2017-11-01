@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import net.kzn.shoppingbackend.dao.ProductDAO;
-import net.kzn.shoppingbackend.dto.Product;
+import net.pnp.PNPShoppingBackEnd.dao.ProductDAO;
+import net.pnp.PNPShoppingBackEnd.dto.Product;
 
 
 @Repository("productDAO")

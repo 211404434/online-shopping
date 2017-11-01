@@ -1,8 +1,9 @@
 package net.pnp.PNPShoppingBackEnd.dao;
 
-import java.util.List;
+import java.util.*;  
 
-import net.kzn.shoppingbackend.dto.Product;
+
+import net.pnp.PNPShoppingBackEnd.dto.Product;
 
 public interface ProductDAO {
 

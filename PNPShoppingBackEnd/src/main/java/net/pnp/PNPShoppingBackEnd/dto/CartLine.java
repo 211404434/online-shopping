@@ -9,15 +9,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
 @Entity
 @Table(name = "cart_line")
-public class CartLine implements Serializable {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+public class CartLine implements Serializable  {
+
+private static final long serialVersionUID = 1L;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -77,6 +74,11 @@ public class CartLine implements Serializable {
 	public void setAvailable(boolean available) {
 		this.available = available;
 	}
-		
+
+	
+	
+	
+	
+	
 	
 }
