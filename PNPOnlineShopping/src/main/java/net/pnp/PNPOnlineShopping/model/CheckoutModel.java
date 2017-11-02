@@ -18,7 +18,7 @@ public class CheckoutModel implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private User user;
-	private Address shipping;
+	private net.pnp.PNPShoppingBackEnd.dto.Address shipping;
 	private Cart cart;
 	private List<CartLine> cartLines;
 	private OrderDetail orderDetail;
@@ -61,16 +61,16 @@ public class CheckoutModel implements Serializable {
 		return user;
 	}
 
-	public void setUser(User user) {
-		this.user = user;
+	public void setUser(net.pnp.PNPShoppingBackEnd.dto.User user2) {
+		this.user = (User) user2;
 	}
 
-	public Address getShipping() {
+	/*public Address getShipping() {
 		return shipping;
-	}
+	}*/
 
-	public void setShipping(Address shipping) {
-		this.shipping = shipping;
+	public void setShipping(net.pnp.PNPShoppingBackEnd.dto.Address shipping2) {
+		this.shipping = shipping2;
 	}
 	
 }
