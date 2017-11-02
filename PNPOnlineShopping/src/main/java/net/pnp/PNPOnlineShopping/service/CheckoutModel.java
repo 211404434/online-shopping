@@ -3,11 +3,11 @@ package net.pnp.PNPOnlineShopping.service;
 import java.io.Serializable;
 import java.util.List;
 
-import net.kzn.shoppingbackend.dto.Address;
-import net.kzn.shoppingbackend.dto.Cart;
-import net.kzn.shoppingbackend.dto.CartLine;
-import net.kzn.shoppingbackend.dto.OrderDetail;
-import net.kzn.shoppingbackend.dto.User;
+import net.pnp.PNPShoppingBackEnd.dto.Address;
+import net.pnp.PNPShoppingBackEnd.dto.Cart;
+import net.pnp.PNPShoppingBackEnd.dto.CartLine;
+import net.pnp.PNPShoppingBackEnd.dto.OrderDetail;
+import net.pnp.PNPShoppingBackEnd.dto.User;
 
 public class CheckoutModel implements Serializable {
 

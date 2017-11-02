@@ -2,8 +2,8 @@ package net.pnp.PNPOnlineShopping.model;
 
 import java.io.Serializable;
 
-import net.kzn.shoppingbackend.dto.Address;
-import net.kzn.shoppingbackend.dto.User;
+import net.pnp.PNPShoppingBackEnd.dto.Address;
+import net.pnp.PNPShoppingBackEnd.dto.User;
 
 public class RegisterModel implements Serializable {
 

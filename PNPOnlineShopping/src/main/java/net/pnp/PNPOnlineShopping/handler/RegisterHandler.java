@@ -1,16 +1,17 @@
 package net.pnp.PNPOnlineShopping.handler;
 
+import javax.mail.Address;
+import javax.mail.MessageContext;
+import javax.xml.registry.infomodel.User;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.binding.message.MessageBuilder;
-import org.springframework.binding.message.MessageContext;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import net.kzn.onlineshopping.model.RegisterModel;
-import net.kzn.shoppingbackend.dao.UserDAO;
-import net.kzn.shoppingbackend.dto.Address;
-import net.kzn.shoppingbackend.dto.Cart;
-import net.kzn.shoppingbackend.dto.User;
+import net.pnp.PNPShoppingBackEnd.dao.UserDAO;
+import net.pnp.PNPShoppingBackEnd.dto.Cart;
+import net.pnp.PNPOnlineShopping.model.RegisterModel;
 
 @Component
 public class RegisterHandler {

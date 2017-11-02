@@ -1,15 +1,14 @@
 package net.pnp.PNPOnlineShopping.controller;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
+import java.util.Locale.Category;
+import java.util.logging.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.slf4j.Logger;
+import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
@@ -18,11 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import net.kzn.onlineshopping.exception.ProductNotFoundException;
-import net.kzn.shoppingbackend.dao.CategoryDAO;
-import net.kzn.shoppingbackend.dao.ProductDAO;
-import net.kzn.shoppingbackend.dto.Category;
-import net.kzn.shoppingbackend.dto.Product;
+import net.pnp.PNPOnlineShopping.exception.ProductNotFoundException;
+import net.pnp.PNPShoppingBackEnd.dao.CategoryDAO;
+import net.pnp.PNPShoppingBackEnd.dao.ProductDAO;
+import net.pnp.PNPShoppingBackEnd.dto.Product;
 
 @Controller
 public class PageController {

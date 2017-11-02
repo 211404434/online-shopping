@@ -3,7 +3,7 @@ package net.pnp.PNPOnlineShopping.validator;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import net.kzn.shoppingbackend.dto.Product;
+import net.pnp.PNPShoppingBackEnd.dto.Product;
 
 public class ProductValidator implements Validator {
 

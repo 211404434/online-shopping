@@ -11,9 +11,34 @@
 	<properties>
 		<javaee.version>8.0</javaee.version>
 		<spring.version>5.0.1.RELEASE</spring.version>
+		<spring.security.version>4.2.2.RELEASE</spring.security.version>
+
 	</properties>
 
 	<dependencies>
+		<!--Spring security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+
+		<!-- Linking backend and frontend -->
+		<dependency>
+			<groupId>net.pnp</groupId>
+			<artifactId>PNPShoppingBackEnd</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!--JAVA EE API -->
 		<dependency>
 			<groupId>javax</groupId>

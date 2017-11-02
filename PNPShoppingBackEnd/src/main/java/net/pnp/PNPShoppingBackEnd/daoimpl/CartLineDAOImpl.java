@@ -1,6 +1,7 @@
 package net.pnp.PNPShoppingBackEnd.daoimpl;
 
-import java.util.*;
+
+import java.util.List;
 
 import javax.transaction.Transactional;
 

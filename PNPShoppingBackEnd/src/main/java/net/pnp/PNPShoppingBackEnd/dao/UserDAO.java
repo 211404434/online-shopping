@@ -1,6 +1,8 @@
 package net.pnp.PNPShoppingBackEnd.dao;
 
-import java.util.*; 
+
+import java.util.List;
+
 import net.pnp.PNPShoppingBackEnd.dto.Address;
 import net.pnp.PNPShoppingBackEnd.dto.User;
 public interface UserDAO {

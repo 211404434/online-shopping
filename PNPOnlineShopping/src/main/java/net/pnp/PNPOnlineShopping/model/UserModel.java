@@ -2,7 +2,7 @@ package net.pnp.PNPOnlineShopping.model;
 
 import java.io.Serializable;
 
-import net.kzn.shoppingbackend.dto.Cart;
+import net.pnp.PNPShoppingBackEnd.dto.Cart;
 
 public class UserModel implements Serializable {
 

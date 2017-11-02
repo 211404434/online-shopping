@@ -3,26 +3,26 @@ package net.pnp.PNPOnlineShopping.handler;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.logging.Logger;
 
+import javax.mail.Address;
 import javax.servlet.http.HttpSession;
+import javax.xml.registry.infomodel.User;
 
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import net.kzn.onlineshopping.model.CheckoutModel;
-import net.kzn.onlineshopping.model.UserModel;
-import net.kzn.shoppingbackend.dao.CartLineDAO;
-import net.kzn.shoppingbackend.dao.ProductDAO;
-import net.kzn.shoppingbackend.dao.UserDAO;
-import net.kzn.shoppingbackend.dto.Address;
-import net.kzn.shoppingbackend.dto.Cart;
-import net.kzn.shoppingbackend.dto.CartLine;
-import net.kzn.shoppingbackend.dto.OrderDetail;
-import net.kzn.shoppingbackend.dto.OrderItem;
-import net.kzn.shoppingbackend.dto.Product;
-import net.kzn.shoppingbackend.dto.User;
+import net.pnp.PNPShoppingBackEnd.dao.CartLineDAO;
+import net.pnp.PNPShoppingBackEnd.dao.ProductDAO;
+import net.pnp.PNPShoppingBackEnd.dao.UserDAO;
+import net.pnp.PNPShoppingBackEnd.dto.Cart;
+import net.pnp.PNPShoppingBackEnd.dto.CartLine;
+import net.pnp.PNPShoppingBackEnd.dto.OrderDetail;
+import net.pnp.PNPShoppingBackEnd.dto.OrderItem;
+import net.pnp.PNPShoppingBackEnd.dto.Product;
+import net.pnp.PNPOnlineShopping.model.CheckoutModel;
+import net.pnp.PNPOnlineShopping.model.UserModel;
 
 @Component
 public class CheckoutHandler {
