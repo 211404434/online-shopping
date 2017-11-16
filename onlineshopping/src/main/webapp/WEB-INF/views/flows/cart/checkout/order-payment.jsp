@@ -37,7 +37,7 @@
 	                    <form role="form">
 	                    <div class="form-group">
 	                        <label for="cardNumber">
-	                            CARD NUMBER</label>
+	                           CREDIT CARD NUMBER</label>
 	                        <div class="input-group">
 	                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
 	                                required autofocus />
