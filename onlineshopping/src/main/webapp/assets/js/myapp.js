@@ -92,7 +92,7 @@ $(function() {
 							{
 								data : 'unitPrice',
 								mRender : function(data, type, row) {
-									return '&#8377; ' + data
+									return 'R ' + data
 								}
 							},
 							{
@@ -199,7 +199,7 @@ $(function() {
 								{
 									data : 'unitPrice',
 									mRender : function(data, type, row) {
-										return '&#8377; ' + data
+										return 'R ' + data
 									}
 								},
 								{
