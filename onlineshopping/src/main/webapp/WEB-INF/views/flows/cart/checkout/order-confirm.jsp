@@ -19,7 +19,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Online Shopping - Membership</title>
+<title>Pick N Pay Online Shopping - Membership</title>
 
 <script>
 
@@ -58,7 +58,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
            <div class="navbar-header">
-               <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
+               <a class="navbar-brand" href="${contextRoot}/home"> Pick N Pay Online Shopping</a>
            </div>
 		</div>
 	</nav>

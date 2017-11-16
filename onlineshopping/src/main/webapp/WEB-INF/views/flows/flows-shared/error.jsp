@@ -28,7 +28,7 @@
 <link href="${css}/myapp.css" rel="stylesheet">
 
 
-<title>Online Shopping - FlowException</title>
+<title>Pick N Pay Online Shopping - FlowException</title>
 
 </head>
 

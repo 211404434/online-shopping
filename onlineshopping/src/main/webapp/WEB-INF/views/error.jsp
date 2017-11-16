@@ -28,7 +28,7 @@
 <link href="${css}/myapp.css" rel="stylesheet">
 
 
-<title>Online Shopping - ${title}</title>
+<title>Pick N Pay Online Shopping - ${title}</title>
 
 </head>
 
