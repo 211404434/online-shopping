@@ -110,14 +110,27 @@ CREATE TABLE order_item (
 );
 
 
--- adding three categories
+-- adding 10 categories
 INSERT INTO category (name, description,image_url,is_active) VALUES ('FRESH FOOD', 'This is description for fresh food category!', 'CAT_1.png', true);
 INSERT INTO category (name, description,image_url,is_active) VALUES ('FOOD CUPBOARD', 'This is description for food cupboard category!', 'CAT_2.png', true);
 INSERT INTO category (name, description,image_url,is_active) VALUES ('FROZEN FOOD', 'This is description for Frozen Food category!', 'CAT_3.png', true);
--- adding three users 
+
+INSERT INTO category (name, description,image_url,is_active) VALUES ('CONVINIENT MEALS', 'This is description for convinient meals category!', 'CAT_4.png', true);
+INSERT INTO category (name, description,image_url,is_active) VALUES ('WINE AND LIQUOR', 'This is description for wine and Liquor  category!', 'CAT_5.png', true);
+INSERT INTO category (name, description,image_url,is_active) VALUES ('HEALTH AND BEAUTY', 'This is description for Health and Beauty category!', 'CAT_6.png', true);
+
+INSERT INTO category (name, description,image_url,is_active) VALUES ('BABY', 'This is description for baby category!', 'CAT_7.png', true);
+INSERT INTO category (name, description,image_url,is_active) VALUES ('HOUSEHOLD CLEANING', 'This is description for house and cleaning category!', 'CAT_8.png', true);
+INSERT INTO category (name, description,image_url,is_active) VALUES ('ELECTRONICS AND OFFICE', 'This is description for Electronics and Office category!', 'CAT_9.png', true);
+
+INSERT INTO category (name, description,image_url,is_active) VALUES ('HOME AND OUTDOOR', 'This is description for Home and Outdoor category!', 'CAT_10.png', true);
+
+
+
+-- adding 4 users 
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('Nicolas', 'Tepanyega', 'ADMIN', true, '$2a$06$ORtBskA2g5Wg0HDgRE5ZsOQNDHUZSdpJqJ2.PGXv0mKyEvLnKP7SW', 'vk@gmail.com', '8888888888');
+VALUES ('Nicolas', 'Tepanyega', 'ADMIN', true, '$2a$06$ORtBskA2g5Wg0HDgRE5ZsOQNDHUZSdpJqJ2.PGXv0mKyEvLnKP7SW', 'n@gmail.com', '8888888888');
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
 VALUES ('Nicolas', 'Tepanyega', 'SUPPLIER', true, '$2a$06$bzYMivkRjSxTK2LPD8W4te6jjJa795OwJR1Of5n95myFsu3hgUnm6', 'rj@gmail.com', '9999999999');
