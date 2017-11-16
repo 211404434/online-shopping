@@ -63,7 +63,7 @@
 								<label class="control-label col-md-4" for="state">State</label>
 								<div class="col-md-8">
 									<sf:input type="text" path="state" class="form-control"
-										placeholder="Enter State Name" />
+										placeholder="Enter Province Name" />
 									<sf:errors path="state" cssClass="help-block" element="em"/> 
 								</div>
 							</div>
